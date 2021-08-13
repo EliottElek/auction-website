@@ -1,0 +1,24 @@
+.deleteItem {
+    width: 85%;
+    margin: auto;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(255, 58, 58);
+    transition: 0.3s ease-in-out;
+    color:white;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .deleteItem:hover{
+  transform:scale(1.03);
+  transition: 0.3s ease-in-out;
+  }
+  #addFirst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }

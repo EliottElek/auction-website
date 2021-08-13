@@ -1,0 +1,162 @@
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 300px 0;
+  font-family: sans-serif;
+  background-color: #404040;
+  background-image: url("https://unblast.com/wp-content/uploads/2020/04/Man-Holding-iPhone-Mockup-1.jpg");
+  background-size: contain;
+  background-position: center;
+  image-rendering: crisp-edges;
+  background-size: cover;
+  background-position: 50% 0%;
+  overflow-y: hidden;
+}
+.sign-up-form {
+  width: 300px;
+  background: white;
+  padding: 5px 20px;
+  margin: 8% auto 0;
+  text-align: center;
+  border-radius: 20px;
+}
+#createACC {
+  margin: 4% auto 0;
+}
+.sign-up-form h1 {
+  color: rgb(238, 207, 34);
+  margin-bottom: 20px;
+}
+.page-header input {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid gray;
+  outline: none;
+  width: 300px;
+  box-shadow: 0 0 3 0 rgba(0, 0, 0, 0, 3);
+  background: white;
+  padding: 5px 20px;
+  margin: 8% auto 0;
+  text-align: center;
+  border-radius: 20px;
+}
+.input-box {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #999;
+  outline: none;
+}
+.btn-primary {
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  color: black;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.or {
+  background: #fff;
+  width: 30px;
+  margin: -19px auto 10px;
+}
+social-icons {
+  margin-left: 0;
+}
+.social-icons ul {
+  list-style: none;
+  margin-left: 0px;
+  margin-top: 0;
+}
+.social-icons ul li {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 26px 0 0;
+  text-decoration: none;
+}
+.social-icons ul li a {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(238, 207, 34);
+}
+/* a:visited{
+  text-decoration: none;
+  color: black;
+} */
+a:active {
+  text-decoration: underline;
+  color: blue;
+}
+.social-icons ul li a img {
+  width: 35px;
+  height: 35px;
+}
+.firstname_err {
+  color: red;
+}
+.logo-icon ul li img {
+  width: 65px;
+  height: 65px;
+  align-items: top;
+}
+.slide-in {
+  animation: slide-in 0.5s ease forwards;
+}
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+#sub {
+  width: 50%;
+  height: 12%;
+}
+input {
+  align-self: baseline;
+}
+#buyonly {
+  margin-bottom: 20px;
+}
+#buyandsell {
+  margin-bottom: 20px;
+}
+.actionchoice {
+  font-size: 18px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+/* #sub{
+  background-color: black;
+  color:white;
+} */
+#myModalPassword{
+  display: none;
+}
+#emailPass{
+  width:95%;
+  margin:auto;
+  height:40px;
+}
+#modalcontentPassword{
+  height:50%;
+  text-align: center;
+  border-radius: 10px;
+}

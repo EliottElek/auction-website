@@ -1,0 +1,18 @@
+.myOrders{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:120px;
+    width:100%;
+}
+.myOrders table{
+    width:90%;
+background-color: white;
+}
+.myOrders tr, .myOrders td{
+    border:solid 1px black;
+}
+section{
+    padding: 0px;
+}

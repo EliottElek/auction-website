@@ -1,0 +1,31 @@
+brand : Vankyo
+model : MatrixPad S10
+size : 10in
+capacity: 32Go
+price : 129
+description : Maecenas lacinia lorem sed iaculis bibendum. 
+Sed bibendum mi ut nisi luctus, in suscipit est sollicitudin. 
+Aenean fringilla cursus vehicula. Nullam ultrices fringilla orci nec mollis. 
+Nullam ut tortor id dolor malesuada facilisis. Cras congue, tortor in sollicitudin aliquet, 
+nibh orci eleifend mi, eget fermentum magna nunc ut nulla. Donec egestas mi sed magna varius, 
+ac tempor elit tempor.
+
+Sed quis nisi mollis, venenatis turpis cursus, auctor diam. Morbi blandit vitae nunc eu feugiat.
+ Integer pharetra ipsum vel tortor semper interdum. Duis vulputate pretium nisl,
+ a consequat nisi accumsan efficitur. Pellentesque molestie eu justo sit amet rhoncus. 
+Etiam nec luctus ante, non elementum leo. Etiam in quam non orci fringilla varius a ultrices mi. 
+Ut sollicitudin non arcu ac euismod. Nunc nisi tortor, lacinia nec posuere fermentum, consectetur ac eros.
+
+Sed id interdum justo, sed maximus odio. Vivamus pulvinar arcu id rhoncus convallis.
+ Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+ Curabitur lacinia tristique dui, a sagittis turpis faucibus id. Nulla aliquet leo mollis magna rutrum aliquet.
+ Sed quis nisl erat. Suspendisse risus dolor, scelerisque ut blandit a, fermentum eu ligula. 
+Aenean viverra diam leo, sed blandit tortor tincidunt et.
+ Morbi non arcu posuere massa imperdiet congue vitae vitae justo. Phasellus feugiat mauris ante, 
+eu elementum diam euismod sit amet. Cras id aliquet elit, quis imperdiet libero.
+ Vivamus viverra sem at libero finibus suscipit. Pellentesque condimentum quis ipsum vel placerat.
+
+main pic : https://images-na.ssl-images-amazon.com/images/I/71zFBa6zuVL._AC_SL1500_.jpg
+pic 1: https://images-na.ssl-images-amazon.com/images/I/718Jdueyo1L._AC_SL1500_.jpg
+pic 2 : https://images-na.ssl-images-amazon.com/images/I/71hFyncrGML._AC_SL1500_.jpg
+pic 3: https://images-na.ssl-images-amazon.com/images/I/71uXc7Y9uBL._AC_SL1500_.jpg

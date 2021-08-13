@@ -1,0 +1,110 @@
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
+.box.has-advanced-upload {
+  background-color: white;
+  outline: 2px dashed black;
+  outline-offset: -10px;
+}
+.box.has-advanced-upload .box__dragndrop {
+  display: inline;
+}
+.box.is-dragover {
+  background-color: grey;
+}
+.box.is-uploading .box__input {
+  visibility: none;
+}
+.box.is-uploading .box__uploading {
+  display: block;
+}
+.salesManager {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+.mySalesManager {
+  margin: auto;
+}
+.showOptions {
+  display: none;
+}
+.mySalesManager tr,
+.mySalesManager td {
+  border: solid 1px black;
+}
+#addcard{
+  margin-bottom: 50px;
+}
+.negotiate{
+  border-radius: 3px;
+  border: none;
+  outline:none;
+  width:80px;
+  height:30px;
+  background-color: yellow;
+}
+.accept{
+  border-radius: 3px;
+  border: none;
+  outline:none;
+  width:80px;
+  height:30px;
+  background-color: rgb(109, 233, 109);
+  transition:0.3s ease;
+}
+.accept:hover, .negotiate:hover{
+  cursor:pointer;
+  border:1px solid black;
+  transition:0.3s ease;
+}
+.negotiatePrice{
+  height:30px;
+}
+#myModalAddObject{
+  display:none;
+}
+#formAdd{
+  display: flex;
+}
+#modalAddItem{
+  height:75%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#formAdd{
+  transform: translateY(10%);
+  margin-bottom: 20px;
+}
+.cancelSale{
+  padding:3px;
+  background-color:red;
+  color:white;
+  border:none;
+  border-radius:3px;
+  outline:none;
+}
+.cancelSale:hover{
+cursor:pointer;
+border:1px solid black;
+transition:0.3s ease;
+}
+#myModalCancelAdding, #myModalAcceptAdding{
+  display:none;
+}
+.modal-content{
+  height:60%;
+}
+#type-select,#type-select2{
+  width:95%;
+  height:35px;
+}

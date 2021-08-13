@@ -1,0 +1,159 @@
+.Adress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showOptionsCards {
+  margin-top: 10px;
+  height: 300px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  background-color: transparent;
+}
+.addCard {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 110px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(173, 173, 173);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.addCard h3 {
+  margin-top: -25px;
+}
+#formAdd {
+  display: none;
+  margin-top: -95px;
+}
+#type-select {
+  width: 95%;
+  height: 35px;
+}
+#mastercard {
+  width: auto;
+  height: auto;
+}
+section {
+  height: 100%;
+}
+.deleteCard {
+  margin-bottom: 15px;
+}
+.deleteCard:hover {
+  transition: 0.3s ease;
+  transform: scale(1.01);
+  background-color: rgb(148, 32, 32);
+  color: white;
+}
+.mastercard {
+  width: 130px;
+  height: auto;
+}
+.cardsForm {
+  margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  overflow-y: auto;
+}
+.cardsForm .Adress {
+  margin-bottom: 20px;
+  margin-top: -60px;
+}
+#next2 {
+  transform: translate(270%, -400%);
+  width: 150px;
+}
+.card {
+  width: 350px;
+  height: 200px;
+  transition:0.3s ease-in;
+}
+.card:hover{
+transition:0.3s ease-in;
+transform: scale(1.03);
+cursor: not-allowed;
+}
+.front {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(219, 208, 208);
+  width: 290px;
+  position: relative;
+  height: 170px;
+  top: -65%;
+  left: 0%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(95, 95, 95);
+  transition: 0.7s ease-in;
+}
+.back {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(219, 208, 208);
+  width: 290px;
+  height: 170px;
+  position: relative;
+  top: 0%;
+  left: 17%;
+  border-radius: 10px;
+}
+#bar {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(95, 95, 95);
+  margin-top: -300px;
+  border-radius: 0%;
+}
+#crypto {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0%;
+  right: -82%;
+  width: 45px;
+  height: 30px;
+  background-color: white;
+}
+#digits{
+  font-weight: 900;
+  font-size:20px;
+  margin-top:20px;
+}
+#crypto{
+  font-weight: 600;
+}
+#lastname{
+  text-transform: uppercase;
+  font-weight: 900;
+  transform: translate(-30%,60%);
+}
+#expdate{
+  font-weight: 600;
+  transform: translate(0%,300%);
+}
+.mastercard{
+  position: relative;
+}
+#cb{
+  height:30px;
+  width: 50px;
+  right:-80%;
+  top:5%;
+}
+#master{
+  bottom:5%;
+  right:-63%;
+}

@@ -1,0 +1,74 @@
+.showOptions {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  width:100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+}
+.showOptions a {
+  cursor: unset;
+}
+.option {
+  float: left;
+  width: 250px;
+  height: 250px;
+  background-color: rgb(194, 135, 135);
+  font-size: 25px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  outline: none;
+  transition: 0.5s ease;
+  border: none;
+}
+.option span {
+  position: absolute;
+  display: none;
+  color: black;
+}
+.option:hover {
+  transition: 0.5s ease;
+  transform: scale(1.01);
+  border-radius: 10%;
+  cursor: pointer;
+  border: 2px solid black;
+}
+#headerOptions{
+  height:100%;
+  background-color: transparent;
+}
+.option img:hover {
+  filter: contrast(0.3);
+}
+.showOptions a:hover span {
+  display: block;
+}
+#option1 {
+  background-image: url("smartphone.png");
+  background-position: center;
+  background-size: contain;
+}
+#option2 {
+  background-image: url("tablet.png");
+  background-position: center;
+  background-size: contain;
+}
+#option3 {
+  background-image: url("laptop.png");
+  background-position: center;
+  background-size: contain;
+}
+#option4 {
+  background-image: url("earphones.png");
+  background-position: center;
+  background-size: contain;
+}
+.option:hover {
+  transition: 1s ease;
+  background-color: transparent;
+}
